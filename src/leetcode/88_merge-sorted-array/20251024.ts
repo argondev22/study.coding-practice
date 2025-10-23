@@ -23,8 +23,3 @@
         k--
     }
 };
-
-/**
- * Status: Accepted
- * Time taken: 10 m 59 s
- */
