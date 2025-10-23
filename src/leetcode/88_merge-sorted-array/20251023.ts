@@ -17,3 +17,8 @@
         }
     }
 };
+
+/**
+ * Status: Accepted
+ * Time taken: 1 h 20 m 22 s
+ */
