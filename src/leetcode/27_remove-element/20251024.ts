@@ -18,8 +18,3 @@ export function removeElement(nums: number[], val: number): number {
 
     return j + 1;
 };
-
-/**
- * Status: Accepted
- * Time taken: 28 m 23 s
- */
