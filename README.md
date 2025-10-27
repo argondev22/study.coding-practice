@@ -1,4 +1,4 @@
-# Coding Practice Repository
+# Coding Practice
 
 ## 📚 概要
 
