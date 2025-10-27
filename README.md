@@ -1,87 +1,51 @@
-# Template Utils
+# Coding Practice Repository
 
-## Overview
+## 📚 概要
 
-A comprehensive project template that provides a ready-to-use development environment with modern tooling and best practices. This template accelerates project setup by including pre-configured development containers, GitHub workflows, and standardized templates for issues and pull requests.
+このリポジトリは、プログラミングコンテストやアルゴリズム学習のための練習問題を管理するためのリポジトリです。LeetCode、AtCoder、Paizaなどの問題を解いたコードを整理・管理しています。
 
-## Features
+## 🎯 目的
 
-### 🚀 Development Environment Template
-- **Dev Containers**: Instant development environment setup with VSCode
-- **Docker Compose**: Easy multi-service environment management
-- **GitHub Templates**: Standardized issue and PR templates
+- アルゴリズムとデータ構造の学習
+- プログラミングコンテストの準備
+- コードの品質向上とベストプラクティスの習得
+- 問題解決能力の向上
 
-### 📱 Sample Application
-- **Full-Stack Architecture**: 3-tier architecture with React + FastAPI + PostgreSQL
-- **Real-time Features**: Instant data updates with button clicks
-- **Data Persistence**: Click history management with PostgreSQL
-- **API Documentation**: Auto-generated documentation with Swagger UI
-- **Responsive UI**: Modern web interface
-
-## Architecture
-
-```mermaid
-sequenceDiagram
-    autonumber
-    actor CL as Client (React)
-    participant SV as Server (FastAPI)
-    participant DB as Database (PostgreSQL)
-    CL->>SV: HTTP Request (API Call)
-    SV->>DB: SQL Query
-    DB->>SV: Query Result
-    SV->>CL: JSON Response
-```
-
-## Directory Structure
+## 📁 ディレクトリ構造
 
 ```
-.
-├── .devcontainer/                # Development container configuration
-├── .github/                      # GitHub configuration
-│   ├── ISSUE_TEMPLATE/           # GitHub issue templates
-│   └── PULL_REQUEST_TEMPLATE/    # GitHub PR templates
-├── .vscode/                      # VSCode configuration
-├── app/                          # Complete application directory (source code, Docker configs, etc.)
-│   ├── client/                   # React frontend application
-│   └── server/                   # FastAPI backend application
-├── bin/                          # Utility scripts
-└── docs/                         # Project documentation
+src/
+├── leetcode/                     # LeetCode問題の解答
+├── atcoder/                      # AtCoder問題の解答
+└── paiza/                        # Paiza問題の解答
 ```
 
-> **📖 For detailed information about each service, please refer to their respective README files:**
-> - **Client (React)**: [`app/client/README.md`](app/client/README.md)
-> - **Server (FastAPI)**: [`app/server/README.md`](app/server/README.md)
+## 📝 命名規則
 
-## Getting Started
+### ファイル命名規則
+各問題の解答ファイルは以下の形式で命名しています：
+- `YYYYMMDD.ts` - 解答日付（例：`20251028.ts`）
 
-### Prerequisites
+### ブランチ命名規則
+ブランチは以下の形式で命名しています：
+- `YYYYMMDD/...` - 作業日付（例：`20251025/leetcode-problem-26`）
 
-- [Docker](https://www.docker.com/)
-- [Dev Containers](https://containers.dev/) extension (`anysphere.remote-containers`) for VSCode
-- UNIX/Linux-based OS (Windows users should use WSL2)
+## 🚀 使用方法
 
-### Quick Start
-
-1. **Clone the repository**
+1. **リポジトリのクローン**
    ```bash
-   git clone <repo-url> <project-name>
-   cd <project-name>
+   git clone <repository-url>
+   cd study.coding-practice
    ```
 
-2. **Initialize the project**
+2. **問題の実行**
    ```bash
-   make init
+   # TypeScriptファイルの実行例
+   npx ts-node src/leetcode/26_remove-duplicates-from-sorted-array/20251028.ts
    ```
 
-3. **Open in Dev Container**
-   - Press `Ctrl+Shift+P` (or `Cmd+Shift+P` on Mac) in VSCode
-   - Type `Dev Containers: Open Folder in Container`
-   - Select and execute the command
+## 📚 参考資料
 
-4. **Start the development environment**
-   ```bash
-   make up
-   ```
-
-5. **Access your application**
-   - Open your browser and navigate to: http://localhost:3000
+- [LeetCode](https://leetcode.com/)
+- [AtCoder](https://atcoder.jp/)
+- [Paiza](https://paiza.jp/)
