@@ -43,9 +43,3 @@ src/
    # TypeScriptファイルの実行例
    npx ts-node src/leetcode/26_remove-duplicates-from-sorted-array/20251028.ts
    ```
-
-## 📚 参考資料
-
-- [LeetCode](https://leetcode.com/)
-- [AtCoder](https://atcoder.jp/)
-- [Paiza](https://paiza.jp/)
