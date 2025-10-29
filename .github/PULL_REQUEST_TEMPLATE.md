@@ -1,5 +1,5 @@
 # Status
-[Accepted/Failed]
+[Accepted/Wrong Answer]
 
 # Runtime
  ms
