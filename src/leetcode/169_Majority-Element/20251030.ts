@@ -1,4 +1,4 @@
-function majorityElement(nums: number[]): number {
+export function majorityElement(nums: number[]): number {
     if (nums.length <= 2) {
         return nums[0]
     }
