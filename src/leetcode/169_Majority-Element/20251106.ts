@@ -9,7 +9,7 @@ export function majorityElement(nums: number[]): number {
         } else if (nums[i] === majority) {
             count++;
         } else {
-            count--
+            count--;
         }
     }
 
