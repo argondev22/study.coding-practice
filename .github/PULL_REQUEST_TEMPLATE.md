@@ -1,11 +1,17 @@
-# Status
-[Accepted/Wrong Answer]
+## Status
+[Accepted/Wrong Answer/Time Limit Exceeded]
 
-# Runtime
+## Runtime
  ms
 
- # Memory
+### Order
+*O()*
+
+## Memory
  MB
 
-# Time Taken
+### Order
+*O()*
+
+## Time Taken
  m  s
